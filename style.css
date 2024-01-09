@@ -1,0 +1,235 @@
+
+                            /* css */
+
+    
+    body {
+        
+    }
+    footer {
+        background-color: rgb(20, 20, 20);
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+    }      
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+                                                /* ****************************** */
+                                                /* ****************************** */
+                                                /************** BODY **************/
+                                                /* ****************************** */
+                                                /* ****************************** */
+
+
+            /* ******CHAMBRE ****** */
+    
+    .body-chambre {
+        background-image: url(images/couloir.jpg);
+        background-size: 100%;
+        background-repeat: none;
+    }
+
+    .body-histoire {
+        background-image: url(images/back.jpg);
+        background-size: 100%;
+    }
+    .body-resto {
+        background-image: url(images/rose.jpg);
+        background-size: 100%;
+    }
+
+    .block-1 {
+        background-image: url('');
+        background-size: 100%;
+    }    
+    .txt-center {
+        text-align: center;
+    }
+    .li-style {
+        list-style: none !important;
+    }
+
+                                /* Height - width */
+    
+    .w-70 {
+        width: 70%;
+    }
+    .w-25 {
+        width: 25%;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    .w-300 { width: 300px;}
+
+    .min-w-420 {
+        min-width: 400px;
+    }
+    .max-w-1000 {
+        max-width: 1000px;
+    }
+    .maxw-100 {
+        width: 100vw;
+    }
+    .height-200 {
+        height: 200px;
+    }
+    .h-50 {
+        height: 50%;
+    }
+                                    /* Opacity  */
+
+    .opa-5 {
+        opacity: 0.5;
+    }                                
+    .opa-7 {
+        opacity: 0.7;
+    }
+
+    .opa-1 {
+        opacity: 1 !important;
+    }
+    
+
+                                /* Margin - Padding */
+
+    .my--10{
+        margin: 10px 0;
+    }
+    .m-5px {
+        margin: 5px;
+    }
+    
+    .p-10 {
+        padding: 10px;
+    }
+    .mx-20px {
+        margin: 0 30px;
+    }   
+    .mtop-10 {
+        margin-top: 10px;
+    }
+    .px-5 {
+        padding: auto 5px;
+    }
+    .m-auto {
+        margin: auto;
+    }
+   
+    .my-50 {
+        margin: 50px 0 ;
+    }
+
+                                /* color-font */
+    .color-white {
+                color: rgb(255, 255, 255) ;
+            }
+    .color-gold {
+        color: rgb(186, 142, 29);
+    }
+    .font-size {
+        font-size: 100px;
+    }
+    .fo-sz-2 {
+        font-size: 1rem;
+    }
+                                /* background-color */
+
+    .background-rose {
+       background-color: rgb(255, 205, 205);
+    }
+    .bg-yellow {
+        background-color: goldenrod;
+    }
+    .bg-trans {
+        background-color: rgba(204, 204, 204, 0.8);
+    }
+    .bg-trans-2 {
+        background-color: rgba(204, 204, 204, 0.3);
+    }
+    .bg-trans-black {
+        background-color: rgba(154, 0, 0, 0.2);
+    }
+    .bg-black {
+        background-color: black;
+    }
+                                    /* Border */
+    .bor-gold {
+        border: solid 2px goldenrod;
+    }
+    .bor {
+        border-radius: 30px;
+    }
+    .bor-40 {
+        border-radius: 40px;
+    }
+    .element {
+        border: 10px solid rgba(197, 197, 197, 0.5);
+    }
+    .bor-50 {
+        border-radius: 50%;
+    }
+
+                                    /* REPONSIVE */
+
+
+    /* mobile */
+    @media screen and (max-width:576px) {
+    .m-s-5 {
+       margin: 0 5px;
+    }
+    .w-m-50 {
+        width: 50%;
+    }
+    
+        
+    }
+    /* desktop */
+    @media screen and (min-width:1024px) {
+        
+                            /* width  */
+        .w-d-100 {
+            width: 100%;
+        }
+        .w-d-90 {
+            width: 90%;
+         }
+         .w-d-80 {
+            width: 80%;
+         }
+        .w-d-70 {
+            width: 70%;
+         }
+         .w-d-60 {
+            width: 60%;
+         }
+        .w-d-50 {
+           width: 50%;
+        }
+        .w-d-40 {
+            width: 40%;
+         }
+         .w-d-30 {
+            width: 30%;
+         }
+        .color-red { 
+            color: red;
+        }
+                            /* d-flex */
+    .d-fl {
+        display: flex;
+        justify-content: center;
+
+    }
+        
+    }
+
+                         /*WIDTH HEIGHT  */
+        .w-80 {
+        width: 80%;
+    }
+        .w-70 {
+            width: 70%;
+        }
